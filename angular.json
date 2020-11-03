@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "covid-tracker"
+    }
+  },
+  "defaultProject": "covid-tracker",
+  "cli": {
+    "analytics": "c3b6cce0-da1f-45f2-80f7-ea7f774eda01"
+  }
 }
