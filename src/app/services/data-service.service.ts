@@ -17,9 +17,9 @@ export class DataServiceService {
        map(result => {
         let data: GlobalDataSummary[] = [];
         let rows = result.split('\n');
+        rows.splice(0,1);
         rows.forEach( row => {
           let cols = row.split(/,(?=\S)/);
-          console.log(cols);
           data.push({
             country : cols[3],
             confirmed : parseInt(cols[7]),   //In type script we can use " + " instead of parseInt ---> Ex : +col(7)
