@@ -45,7 +45,6 @@ export class HomeComponent implements OnInit {
         }
       }
     )
-     console.log(this.numberWithCommas(this.totalConfirmed));
   }
 
  
