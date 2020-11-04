@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
+import { Ng2GoogleChartsModule, GoogleChartsSettings } from 'ng2-google-charts';
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
@@ -21,7 +23,8 @@ import { DashboardCardsComponent } from './components/dashboard-cards/dashboard-
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    Ng2GoogleChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
